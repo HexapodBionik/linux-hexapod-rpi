@@ -1,0 +1,5 @@
+config HEXAPOD_HHC
+	tristate "Hexapod Hardware Controller support"
+	depends on SPI
+	help
+	  Hexapod Hardware Controller support over SPI.

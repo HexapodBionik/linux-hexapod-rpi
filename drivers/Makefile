@@ -189,3 +189,6 @@ obj-$(CONFIG_COUNTER)		+= counter/
 obj-$(CONFIG_MOST)		+= most/
 obj-$(CONFIG_PECI)		+= peci/
 obj-$(CONFIG_HTE)		+= hte/
+
+# Hexapod Hardware Controller support
+obj-$(CONFIG_HEXAPOD_HHC)	+= hhc-spi/
