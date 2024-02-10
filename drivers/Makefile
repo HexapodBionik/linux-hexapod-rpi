@@ -192,3 +192,6 @@ obj-$(CONFIG_HTE)		+= hte/
 
 # Hexapod Hardware Controller support
 obj-$(CONFIG_HEXAPOD_HHC)	+= hhc-spi/
+
+# ANTONITERM support
+obj-$(CONFIG_ANTONITERM)	+= antoniterm-spi/
