@@ -242,4 +242,7 @@ source "drivers/hte/Kconfig"
 # Hexapod Hardware Controller support
 source "drivers/hhc-spi/Kconfig"
 
+# ANTONITERM support
+source "drivers/antoniterm-spi/Kconfig"
+
 endmenu
