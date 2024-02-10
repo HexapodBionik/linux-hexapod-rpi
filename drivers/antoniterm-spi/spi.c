@@ -84,7 +84,8 @@ static int antoniterm_probe(struct spi_device *spi)
 
 	magic = spi_w8r8(spi, 0x81);
 	if (magic != 0x63) {
-		printk(KERN_ERR "antoniterm-spi: Probe failed: Bad magic");
+		printk(KERN_ERR "antoniterm-spi: Probe failed: "
+				"Bad magic: Expected 0x63, got %hhx.", magic);
 		return -1;
 	}
 
