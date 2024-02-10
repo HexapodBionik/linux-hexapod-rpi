@@ -1,0 +1,5 @@
+config ANTONITERM
+	tristate "ANTONITERM support"
+	depends on SPI
+	help
+	  ANTONITERM support over SPI.
